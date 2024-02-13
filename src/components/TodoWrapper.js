@@ -7,7 +7,7 @@ uuidv4();
 
 const getTodo = () => {
   let newTodo = localStorage.getItem("todos");
-  if(newTodo === [])
+  if(newTodo == [])
   {
     return [];
   }else{
